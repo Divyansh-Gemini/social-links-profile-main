@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    width: 22rem;
+    margin: auto;
+    position: relative;
+    top: 9.5rem;
+    padding: 2rem;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    margin: auto;
+    border-radius: 60%;
+}
+
+.card h1 {
+    font-size: 1.4rem;
+    margin: 2rem 0rem .5rem 0rem;
+}
+
+.card .location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card .bio {
+    font-size: 14px;
+    margin: 1.5rem 0rem 1rem 0rem;
+}
+
+.card .btn {
+    background-color: hsl(0, 0%, 20%);
+    margin: .4rem;
+    padding: .8rem;
+    border-radius: 6px;
+    font-weight: 600;
+}
